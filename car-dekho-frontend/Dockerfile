@@ -7,7 +7,7 @@ RUN npm install
 
 COPY car-dekho-frontend .
 
-ARG VITE_API_BASE=http://localhost:5000/api/v1
+ARG VITE_API_BASE=https://p01--car-dekho-backend--bmxsljx79zw4.code.run/api/v1
 ENV VITE_API_BASE=${VITE_API_BASE}
 
 RUN npm run build

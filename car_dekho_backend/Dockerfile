@@ -2,14 +2,11 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-RUN pwd
-
-COPY . .
-
-RUN ls -la
-RUN find . -name package.json
+COPY car_dekho_backend/package*.json ./
 
 RUN npm install
+
+COPY car_dekho_backend .
 
 RUN npx prisma generate
 

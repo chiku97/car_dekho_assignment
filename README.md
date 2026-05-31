@@ -38,7 +38,7 @@ A modern, full-stack car marketplace application built with React, Express.js, a
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/chiku97/car_dekho_backend.git
-cd car_dekho_backend
+cd car_dekho_assignment
 ```
 
 ### 2. Configure Environment Variables
